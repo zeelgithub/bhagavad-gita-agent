@@ -1,6 +1,6 @@
 # 🕉️ Bhagavad Gita AI Agent
 
-An interactive question-answering chatbot built using **LangGraph**, **FReact Agent**, and **VectorStore** to answer questions based on the **Bhagavad Gita**. Users can interact with the app via a simple **Streamlit UI**, asking questions and receiving insightful responses grounded in the Gita's teachings.
+An interactive question-answering chatbot built using **LangGraph** agent with custom tool and **VectorStore** to answer questions based on the **Bhagavad Gita**. Users can interact with the app via a simple **Streamlit UI**, asking questions and receiving insightful responses grounded in the Gita's teachings.
 
 ---
 
@@ -8,7 +8,7 @@ An interactive question-answering chatbot built using **LangGraph**, **FReact Ag
 
 - 💬 Ask any question about the Bhagavad Gita  
 - 🔍 Uses semantic search to find relevant verses and explanations  
-- 🧠 Built using LangGraph and FReact Agent for modular agent control  
+- 🧠 Built using LangGraph Agent for modular agent control  
 - 📚 VectorStore tool for information retrieval  
 - ⚙️ Local LLM using **Ollama Chat Model**  
 - 🖥️ Simple and responsive Streamlit interface  
@@ -20,7 +20,7 @@ An interactive question-answering chatbot built using **LangGraph**, **FReact Ag
 | Component         | Description                                                  |
 |------------------|--------------------------------------------------------------|
 | **LangGraph**     | To define and manage the agent workflow                     |
-| **FReact Agent**  | Tool-executing reactive agent for intelligent responses     |
+| **Agent**         | Tool-executing reactive agent for intelligent responses     |
 | **VectorStore**   | Stores embedded Bhagavad Gita content for semantic retrieval|
 | **Ollama**        | Local LLM backend for answering questions                   |
 | **Streamlit**     | Interactive web UI for real-time user interaction           |
