@@ -48,8 +48,8 @@ Model differences (e.g., context length, token limits, inference cost) will affe
 ```bash
 git clone https://github.com/your-username/bhagavad-gita-agent.git
 cd bhagavad-gita-agent
-
-### 2. Install Dependencies with Poetry
+```
+#### 2. Install Dependencies with Poetry
 
 Make sure you have Poetry installed.
 
@@ -58,8 +58,9 @@ Then install the project dependencies and activate the virtual environment:
 ```bash
 poetry install
 poetry shell
-
+```
 
 ### 3. Run the App
-
+```bash
 poetry run streamlit run main.py
+```
